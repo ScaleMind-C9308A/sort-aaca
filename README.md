@@ -2,6 +2,8 @@
 
 <p style="text-align:justify"> SORT-AACA is a shorterm project conducting the experiment of comparing the performance of the two modenest sorting algorithm: Timsort and IntroSort. The project provides friendly CLI command to conduct the experiment in different scenarios including changing the hyperparameters of the sorting algorithm, conguring the description of the list used in testing, or switching the backbone used in each algorithm. </p>
 
+![Sample result of conduted experiment](https://github.com/KhoiDOO/sort-aaca/blob/main/eg_result/min_10_max_100_tim_min_32_intro_min_16_neg_False.png)
+
 # Setup
 ## Clone
 ### Local
@@ -50,6 +52,3 @@ python main.py --min_size 10 --max_size 1000 --negative --fig_size [25, 15] --fo
 cd sort-aaca
 !python main.py --min_size 10 --max_size 1000 --negative --fig_size [25, 15] --font_scale 2 --tim_min_merge 32 --intro_min_size 16
 ```
-
-# Result
-
